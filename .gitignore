@@ -1,0 +1,59 @@
+# Ignorer les fichiers de configuration locaux
+config/*.json
+config/*.xml
+*.env
+*.local
+
+# Ignorer les répertoires de dépendances
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignorer les fichiers générés
+*.log
+*.pid
+*.swp
+*.swo
+*.tmp
+*.cache
+
+# Ignorer les répertoires temporaires
+tmp/
+temp/
+build/
+
+# Ignorer les fichiers de sauvegarde
+*.bak
+*.orig
+
+# Ignorer les fichiers de cache et de logs du serveur FiveM
+resources/[^a-zA-Z]*
+resources/[a-zA-Z]*/cache/
+resources/[a-zA-Z]*/logs/
+
+# Ignorer les répertoires spécifiques aux outils et au build
+coverage/
+.idea/
+.vscode/
+*.suo
+*.ntvs_analysis.dat
+*.njsproj
+*.sln
+
+# Ignorer les fichiers générés par des outils de déploiement
+deploy/
+
+# Ignorer les fichiers de versions et de configurations spécifiques à l'environnement
+.env.*
+.versions/
+.env.local
+
+# Ignorer les fichiers de sauvegarde locaux
+*.sublime-project
+*.sublime-workspace
+
+# Ignorer les fichiers de configuration des IDE
+*.iml
+*.project
+*.classpath
+*.settings/
